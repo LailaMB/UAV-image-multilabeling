@@ -20,7 +20,7 @@ Trento and Civezzano UAV datasets are not included in the repository, as they ar
 2. Clone the data-efficient transformers (deit) model.
 <code> !git clone https://github.com/facebookresearch/deit.git </code>
 
-2. Replace the <code> 'deit/model.py'</code> file with the <code> model.py </code> file included in the repository.
+2. Replace the <code> 'deit/models.py'</code> file with the <code> models.py </code> file included in the repository.
 3. Run <code> UAV_image_multilabeling_Transformer.py </code>
 
 ## To cite
