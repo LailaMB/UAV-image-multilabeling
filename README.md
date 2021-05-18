@@ -12,7 +12,7 @@ In this paper, we present an approach for the multi-label classification of remo
 
 ## Dataset
 
-Trento and Civezzano UAV datasets are not included in this project, as they are owned by other parties. However, you can prepare your own data or try the code with <a href="https://bigearth.eu/datasets.html"> UC-Merced Multilabel Dataset</a> or <a href="https://github.com/Hua-YS/AID-Multilabel-Dataset">AID Multilabel Dataset</a>.
+Trento and Civezzano UAV datasets are not included in this project, as they are owned by other parties. However, you can try the code with <a href="https://bigearth.eu/datasets.html"> UC-Merced Multilabel Dataset</a> or <a href="https://github.com/Hua-YS/AID-Multilabel-Dataset">AID Multilabel Dataset</a>.
 
 ## To run
 
@@ -22,7 +22,7 @@ Trento and Civezzano UAV datasets are not included in this project, as they are 
 2. Install Vision Transformer (vit) model 
 <code> !pip install --upgrade pytorch-pretrained-vit </code>
 
-3. Replace the <code> 'pytorch_pretrained_vit/transformer.py' </code> and the <code> 'pytorch_pretrained_vit/model.py' </code> files with the files included in the repository.
+3. Replace the <code> 'pytorch_pretrained_vit/transformer.py' </code> and the <code> 'pytorch_pretrained_vit/model.py' </code> files with the <code> transformer.py </code> and <code> model.py</code> files included in the repository.
 
 4. Run <code> UAV_image_multilabeling_Transformer.py </code>
 
