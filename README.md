@@ -19,12 +19,9 @@ Trento and Civezzano UAV datasets are not included in this project, as they are 
 1. Clone the data-efficient transformers (deit) model
 <code> !git clone https://github.com/facebookresearch/deit.git </code>
 
-2. Install Vision Transformer (vit) model 
-<code> !pip install --upgrade pytorch-pretrained-vit </code>
+2. Replace the <code> 'deit/model.py'</code> file with the <code> model.py </code> file included in the repository.
 
-3. Replace the <code> 'pytorch_pretrained_vit/transformer.py'</code> and the <code> 'pytorch_pretrained_vit/model.py'</code> files with the <code> transformer.py </code> and <code> model.py</code> files included in the repository.
-
-4. Run <code> UAV_image_multilabeling_Transformer.py </code>
+3. Run <code> UAV_image_multilabeling_Transformer.py </code>
 
 ## To cite
 <code>
